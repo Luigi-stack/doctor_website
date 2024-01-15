@@ -18,7 +18,7 @@ function CardHomePage(props) {
                     <Card.Text className='mb-4 text-center text-justify'>
                         {props.CardText}
                     </Card.Text>
-                    <Button className="rounded-1 px-4 py-2" variant="outline-secondary">{props.ButtonCard}</Button>{' '}
+                    <Button href={props.Href} className="rounded-1 px-4 py-2" variant="outline-secondary">{props.ButtonCard}</Button>{' '}
                 </Card.Body>
             </Card>
         </>

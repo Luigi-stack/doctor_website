@@ -36,51 +36,54 @@ function HomePage() {
 
                         <Row className='mt-2'>
                             <Col>
-                                <Button className='custom-btn border-0 rounded-1 px-4 py-2'>Book a visit</Button>
-                                <Button className='custom-btn1 ms-4 border-0 rounded-1 px-4 py-2' variant="outline-dark">Read more</Button>
+                                <Button href="/contact" className='custom-btn border-0 rounded-1 px-4 py-2'>Book a visit</Button>
+                                <Button href="/services" className='custom-btn1 ms-4 border-0 rounded-1 px-4 py-2' variant="outline-dark">Read more</Button>
                             </Col>
 
                         </Row>
                     </Col>
                 </Row>
 
-               
+
             </Container>
             <Container>
-            <Row>
+                <Row>
                     <Col className='d-flex justify-content-center' md={4} lg={4} >
                         <CardHomePage
-                        Icons={<BiPlusMedical className='fs-1'/>}
-                        CardTitle={'Emergency Cases'}
-                        CardSubtitle={'Malesuada ultricies curabitur'}
-                        CardText ={'Lorem ipsum dolor sit amet, consectetur adipisicing elit, ad numq, sapiente cum repudiandae temporibus soluta, delectus.'}
-                        ButtonCard={'Make an appointment'}/> 
+                            Icons={<BiPlusMedical className='fs-1' />}
+                            CardTitle={'Emergency Cases'}
+                            CardSubtitle={'Malesuada ultricies curabitur'}
+                            CardText={'Lorem ipsum dolor sit amet, consectetur adipisicing elit, ad numq, sapiente cum repudiandae temporibus soluta, delectus.'}
+                            Href={'/contact'}
+                            ButtonCard={'Make an appointment'} />
                     </Col>
 
                     <Col className='d-flex justify-content-center' md={4} lg={4} >
                         <CardHomePage
-                        Icons={<FaTruckMedical className='fs-1'/>}
-                        CardTitle={'Emergency Cases'}
-                        CardSubtitle={'Malesuada ultricies curabitur'}
-                        CardText ={'Lorem ipsum dolor sit amet, consectetur adipisicing elit, ad numq, sapiente cum repudiandae temporibus soluta, delectus.'}
-                        ButtonCard={'Contact us'}/> 
+                            Icons={<FaTruckMedical className='fs-1' />}
+                            CardTitle={'Emergency Cases'}
+                            CardSubtitle={'Malesuada ultricies curabitur'}
+                            CardText={'Lorem ipsum dolor sit amet, consectetur adipisicing elit, ad numq, sapiente cum repudiandae temporibus soluta, delectus.'}
+                            Href={'/contact'}
+                            ButtonCard={'Contact us'} />
                     </Col>
 
                     <Col className='d-flex justify-content-center' md={4} lg={4} >
                         <CardHomePage
-                        Icons={<FaUserDoctor className='fs-1'/>}
-                        CardTitle={'Our Doctors'}
-                        CardSubtitle={'Malesuada ultricies curabitur'}
-                        CardText ={'Lorem ipsum dolor sit amet, consectetur adipisicing elit, ad numq, sapiente cum repudiandae temporibus soluta, delectus.'}
-                        ButtonCard={'Doctors'}/> 
+                            Icons={<FaUserDoctor className='fs-1' />}
+                            CardTitle={'Our Doctors'}
+                            CardSubtitle={'Malesuada ultricies curabitur'}
+                            CardText={'Lorem ipsum dolor sit amet, consectetur adipisicing elit, ad numq, sapiente cum repudiandae temporibus soluta, delectus.'}
+                            Href={'/team'}
+                            ButtonCard={'Doctors'} />
                     </Col>
                 </Row>
 
             </Container>
 
-            <AboutUs/>
+            <AboutUs />
 
-            <Our_services/>
+            <Our_services />
         </>
     );
 }

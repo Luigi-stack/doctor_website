@@ -20,7 +20,7 @@ function AboutUs() {
                             Wathever your healthcare needs, <br /> we are here to help
                         </h2>
                         <p className='mb-5'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum, lorem voluptatem impedit assumenda, voluptatibus numquam nobis doloremque impedit.</p>
-                        <Button className='custom-btn border-0 rounded-1 px-4 py-2'>About Us</Button>
+                        <Button href="/team" className='custom-btn border-0 rounded-1 px-4 py-2'>About Us</Button>
 
                     </Col>
                 </Row>

@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=DM+Serif+Display:ital@0;1&display=swap');
+
+body{
+  background-image: url("./assets/background.svg");
+  background-repeat:repeat;
+  background-attachment:fixed;
+  font-family: "DM Sans", sans-serif;
+}
+
+.take_care, .section_title {
+  font-family: "DM Serif Display", serif;
+  font-weight: 400;
+  font-style: normal;
+
+}
+
+.take_care, .icon_our_services {
+  font-size: 80px;
+}
+
+.section_title {
+  font-size: 40px;
+}
+
+.take_care, .card_subtitle, .section_title, .icon_our_services {
+  color: #5e639a !important;
+  /* color: #dce4e9ed; */
+}
+
+.custom-btn, .icon_cards {
+  background: #5e639a;
+  color: white;
+}
+
+.custom-btn:hover, .custom-btn1:hover, .icon_cards:hover {
+  background: #3D599D;
+}
+
+.icon_our_services:hover {
+ color: #3D599D !important; 
+}
+
+.our_services {
+  background-color: white;
+}

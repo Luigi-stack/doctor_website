@@ -24,14 +24,12 @@ function HomePage() {
                         {/* <img src={doctor} alt="doctor" height={400} className='d-md-none' /> */}
                         <img src={doctor} alt="doctor" height={400} className=' d-md-block d-lg-none' />
                         <img src={doctor} alt="doctor" height={625} className='d-none d-lg-block ' />
-
-
                     </Col>
 
 
                     <Col className='d-flex flex-column justify-content-center align-items-start col-lg-6'>
                         <p className=''>WELCOME ON OURS CLINIC'S SITE</p>
-                        <h1 className='mb-3 take_care fs-md-1'>Take Care<br />of your health </h1>
+                        <h1 className='mb-3 take_care'>Take Care<br />of your health </h1>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae voluptatem dolor, non animi hic vero necessitatibus blanditiis dolores!</p>
 
                         <Row className='mt-2'>

@@ -3,6 +3,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import HomePage from './Components/HomePage'
 import NavBar from './Components/Navbar'
 import NeedHelp from './Components/NeedHelp';
+import Services from './Components/Services';
 
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
             <Route path="/services" element={
             <>
               <NavBar />
+              <Services />
               <NeedHelp />
             </>} />
 

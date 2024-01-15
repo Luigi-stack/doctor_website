@@ -26,10 +26,6 @@ body{
   font-size: 60px;
 }
 
-.need_help_phonenumber {
-  font-size: 30px;
-}
-
 .take_care, .card_subtitle, .section_title, .icon_our_services, .section_title_need_help {
   color: #5e639a !important;
   /* color: #dce4e9ed; */

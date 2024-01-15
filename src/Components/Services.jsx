@@ -30,7 +30,7 @@ function Services() {
 
                 <h2 className='section_title mb-5 text-center'>What we do</h2>
 
-                <Row className='mb-5'>
+                <Row className='mb-5 mx-md-5'>
                     <Col className='d-flex flex-column align-items-center'>
                         <FaHeartPulse className='icon_our_services mb-4' />
                         <span className='fw-bold text-center'>Cardiology</span> <br />
@@ -50,7 +50,7 @@ function Services() {
                     </Col>
                 </Row>
 
-                <Row className='mb-5'>
+                <Row className='mb-5 mx-md-5'>
                     <Col className='d-flex flex-column align-items-center'>
                         <BiSolidInjection className='icon_our_services mb-4' />
                         <span className='fw-bold text-center'>Injection</span> <br />
@@ -70,7 +70,7 @@ function Services() {
                     </Col>
                 </Row>
 
-                <Row className='mb-5'>
+                <Row className='mb-5 mx-md-5'>
                 <Col className='d-flex flex-column align-items-center'>
                         <GiAcid className='icon_our_services mb-4' />
                         <span className='fw-bold text-center'>Laboratory</span> <br />

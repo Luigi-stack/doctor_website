@@ -7,7 +7,7 @@ body{
   font-family: "DM Sans", sans-serif;
 }
 
-.take_care, .section_title {
+.take_care, .section_title, .section_title_need_help {
   font-family: "DM Serif Display", serif;
   font-weight: 400;
   font-style: normal;
@@ -22,7 +22,15 @@ body{
   font-size: 40px;
 }
 
-.take_care, .card_subtitle, .section_title, .icon_our_services {
+.section_title_need_help {
+  font-size: 60px;
+}
+
+.need_help_phonenumber {
+  font-size: 30px;
+}
+
+.take_care, .card_subtitle, .section_title, .icon_our_services, .section_title_need_help {
   color: #5e639a !important;
   /* color: #dce4e9ed; */
 }

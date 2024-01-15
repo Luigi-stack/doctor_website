@@ -11,6 +11,7 @@ import { BiPlusMedical } from "react-icons/bi";
 import { FaTruckMedical } from "react-icons/fa6";
 import { FaUserDoctor } from "react-icons/fa6";
 import Our_services from './Our_sevices';
+import Need_help from './Need_help';
 
 
 
@@ -82,6 +83,8 @@ function HomePage() {
             <AboutUs/>
 
             <Our_services/>
+
+            <Need_help/>
         </>
     );
 }

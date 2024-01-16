@@ -4,6 +4,7 @@ import HomePage from './Components/HomePage'
 import NavBar from './Components/Navbar'
 import NeedHelp from './Components/NeedHelp';
 import Services from './Components/Services';
+import OurTeam from './Components/OurTeam'
 
 
 function App() {
@@ -29,6 +30,7 @@ function App() {
             <Route path="/team" element={
             <>
               <NavBar />
+              <OurTeam />
               <NeedHelp />
             </>} />
 

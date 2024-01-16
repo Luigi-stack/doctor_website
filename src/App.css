@@ -26,7 +26,7 @@ body{
   font-size: 60px;
 }
 
-.take_care, .card_subtitle, .section_title, .icon_our_services, .section_title_need_help {
+.take_care, .card_subtitle, .section_title, .icon_our_services, .section_title_need_help, .icon_out_team {
   color: #5e639a !important;
   /* color: #dce4e9ed; */
 }
@@ -40,7 +40,7 @@ body{
   background: #3D599D;
 }
 
-.icon_our_services:hover {
+.icon_our_services:hover, .icon_out_team:hover {
  color: #3D599D !important; 
 }
 

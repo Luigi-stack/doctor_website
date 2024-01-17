@@ -13,15 +13,11 @@ import 'aos/dist/aos.css';
 import { useEffect } from 'react';
 
 
-
-
-
 function HomePage() {
 
     useEffect(() => {
         AOS.init();
     }, []);
-
 
     return (
         <>

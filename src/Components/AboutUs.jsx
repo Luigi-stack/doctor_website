@@ -1,13 +1,20 @@
 import aboutus from '../assets/aboutus.png'
 import { Container, Row, Col } from 'react-bootstrap';
 import Button from 'react-bootstrap/Button';
-
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import { useEffect } from 'react';
 
 function AboutUs() {
 
+    useEffect(() => {
+        AOS.init();
+    }, []);
+
     return (
         <>
-            <Container className='mb-5'>
+            <Container className='mb-5' data-aos="fade-up"
+                data-aos-anchor-placement="top-bottom">
                 <Row>
                     <Col className='d-flex justify-content-center'>
                         <img src={aboutus} alt="doctor" width={350} className='d-md-none' />
@@ -21,7 +28,6 @@ function AboutUs() {
                         </h2>
                         <p className='mb-5'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum, lorem voluptatem impedit assumenda, voluptatibus numquam nobis doloremque impedit.</p>
                         <Button href="/team" className='custom-btn border-0 rounded-1 px-4 py-2'>About Us</Button>
-
                     </Col>
                 </Row>
             </Container>

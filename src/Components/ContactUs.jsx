@@ -1,8 +1,16 @@
 import { useState } from 'react';
 import { Container, Row, Col, Form, Button, Modal } from 'react-bootstrap';
 import contact_us from '../assets/contact_us.png';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import { useEffect } from 'react';
 
 function ContactUs() {
+   
+    useEffect(() => {
+        AOS.init();
+    }, []);
+
     const [showModal, setShowModal] = useState(false);
 
     const handleSendMessage = (e) => {
@@ -44,7 +52,8 @@ function ContactUs() {
                     </Col>
                 </Row>
 
-                <Row className='mx-md-5'>
+                <Row className='mx-md-5' data-aos="fade-up"
+                    data-aos-anchor-placement="top-bottom">
                     <Col sm={12} md={4}>
                         <h3 className='section_title fs-2'>VitalCare</h3>
                         <p className='text-secondary'>

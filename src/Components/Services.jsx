@@ -9,10 +9,18 @@ import { MdBloodtype } from "react-icons/md";
 import { GiAcid } from "react-icons/gi";
 import { GiSkeleton } from "react-icons/gi";
 import { GiFruitBowl } from "react-icons/gi";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import { useEffect } from 'react';
 
 
 
 function Services() {
+
+    useEffect(() => {
+        AOS.init();
+    }, []);
+
     return (
         <>
             <Container className='mt-4'>
@@ -30,7 +38,8 @@ function Services() {
 
                 <h2 className='section_title mb-5 text-center'>What we do</h2>
 
-                <Row className='mb-5 mx-md-5'>
+                <Row className='mb-5 mx-md-5' data-aos="fade-up"
+                    data-aos-anchor-placement="top-bottom">
                     <Col className='d-flex flex-column align-items-center'>
                         <FaHeartPulse className='icon_our_services mb-4' />
                         <span className='fw-bold text-center'>Cardiology</span> <br />
@@ -71,7 +80,7 @@ function Services() {
                 </Row>
 
                 <Row className='mb-5 mx-md-5'>
-                <Col className='d-flex flex-column align-items-center'>
+                    <Col className='d-flex flex-column align-items-center'>
                         <GiAcid className='icon_our_services mb-4' />
                         <span className='fw-bold text-center'>Laboratory</span> <br />
                         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sint deserunt dele aperiam minus.</p>

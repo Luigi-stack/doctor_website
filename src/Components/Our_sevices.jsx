@@ -6,13 +6,22 @@ import { PiToothFill } from "react-icons/pi";
 import { FaXRay } from "react-icons/fa6";
 import { MdBloodtype } from "react-icons/md";
 import Button from 'react-bootstrap/Button';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import { useEffect } from 'react';
 
 
 
 function Our_services() {
+
+    useEffect(() => {
+        AOS.init();
+    }, []);
+
     return (
         <>
-            <Container fluid className='mx-0 mb-5 px-3 py-5 our_services'>
+            <Container fluid className='mx-0 mb-5 px-3 py-5 our_services' data-aos="fade-up"
+                data-aos-anchor-placement="top-bottom">
                 <Row className='d-flex justify-content-center align-items-center'>
                     <Col xs={12} md={6} className='mb-5 ps-md-5'>
                         <h2 className='section_title mb-4'>Our Services</h2>

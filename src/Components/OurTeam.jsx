@@ -11,6 +11,9 @@ import doctor_team3 from '../assets/doctor_team3.png'
 import doctor_team4 from '../assets/doctor_team4.png'
 import doctor_team5 from '../assets/doctor_team5.png'
 import doctor_team6 from '../assets/doctor_team6.png'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import { useEffect } from 'react';
 
 
 function OurTeam() {
@@ -95,6 +98,10 @@ function OurTeam() {
         }
     ];
 
+    useEffect(() => {
+        AOS.init();
+    }, []);
+
     return (
         <>
             <Container className='mt-4 mb-5'>
@@ -113,7 +120,8 @@ function OurTeam() {
                 <h2 className='section_title mb-5 text-center'>Meet Our Team</h2>
 
 
-                <Row xs={1} md={3} className="g-4">
+                <Row xs={1} md={3} className="g-4" data-aos="fade-up"
+                    data-aos-anchor-placement="top-bottom">
                     {doctors.map((doctor, idx) => (
                         <Col key={idx}>
                             <Card className='border-0 rounded-4 shadow mb-5 bg-white rounded'>
@@ -125,14 +133,14 @@ function OurTeam() {
                                         {doctor.description}
                                     </Card.Text>
                                     <p className='d-flex justify-content-evenly'>
-                                    <Link to={doctor.contacts.phone} ><FaPhoneAlt className='fs-4 icon_out_team'/></Link>
-                                    <Link to={doctor.contacts.facebook} ><FaFacebookF className='fs-4 icon_out_team'/></Link>
-                                    <Link to={doctor.contacts.linkedin} ><FaLinkedinIn className='fs-4 icon_out_team'/></Link>
-                                    {/* <span className='icon_cards p-4 rounded-circle shadow'><FaLinkedinIn className='fs-1'/></span> */}
+                                        <Link to={doctor.contacts.phone} ><FaPhoneAlt className='fs-4 icon_out_team' /></Link>
+                                        <Link to={doctor.contacts.facebook} ><FaFacebookF className='fs-4 icon_out_team' /></Link>
+                                        <Link to={doctor.contacts.linkedin} ><FaLinkedinIn className='fs-4 icon_out_team' /></Link>
+                                        {/* <span className='icon_cards p-4 rounded-circle shadow'><FaLinkedinIn className='fs-1'/></span> */}
 
 
                                     </p>
-                                   
+
                                 </Card.Body>
                             </Card>
                         </Col>

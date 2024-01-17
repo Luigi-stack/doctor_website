@@ -3,9 +3,6 @@ import doctor from '../assets/doctor.png'
 import { Container, Row, Col } from 'react-bootstrap';
 import Button from 'react-bootstrap/Button';
 import CardHomePage from './CardHomePage';
-// import doctor_icon from '../assets/doctor_icon.png';
-// import ambulance_icon from '../assets/ambulance_icon.png';
-// import cross_icon from '../assets/cross_icon.png';
 import AboutUs from './AboutUs';
 import { BiPlusMedical } from "react-icons/bi";
 import { FaTruckMedical } from "react-icons/fa6";

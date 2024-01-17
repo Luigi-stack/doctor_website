@@ -4,7 +4,7 @@ import Navbar from 'react-bootstrap/Navbar';
 
 function NavBar() {
   return (
-    <Navbar expand="lg" className="bg-body-tertiary">
+    <Navbar sticky="top" expand="lg" className="bg-body-tertiary">
       <Container>
         <Navbar.Brand href="/">React-Bootstrap</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />

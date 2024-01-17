@@ -6,6 +6,7 @@ import NeedHelp from './Components/NeedHelp';
 import Services from './Components/Services';
 import OurTeam from './Components/OurTeam'
 import ContactUs from './Components/ContactUs';
+import Footer from './Components/Footer';
 
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
               <NavBar />
               <HomePage />
               <NeedHelp />
+              <Footer />
             </>} />
 
           <Route path="/services" element={
@@ -26,6 +28,7 @@ function App() {
               <NavBar />
               <Services />
               <NeedHelp />
+              <Footer />
             </>} />
 
           <Route path="/team" element={
@@ -33,6 +36,7 @@ function App() {
               <NavBar />
               <OurTeam />
               <NeedHelp />
+              <Footer />
             </>} />
 
           <Route path="/contact" element={
@@ -40,6 +44,7 @@ function App() {
               <NavBar />
               <ContactUs />
               <NeedHelp />
+              <Footer />
             </>} />
           {/* <Route path="/*" element={<NotFound />} /> */}
         </Routes>

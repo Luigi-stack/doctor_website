@@ -26,7 +26,7 @@ body{
   font-size: 60px;
 }
 
-.take_care, .card_subtitle, .section_title, .icon_our_services, .section_title_need_help, .icon_out_team {
+.take_care, .card_subtitle, .section_title, .icon_our_services, .section_title_need_help, .icon_out_team, .icon_phone {
   color: #5e639a !important;
   /* color: #dce4e9ed; */
 }

@@ -5,6 +5,7 @@ import NavBar from './Components/Navbar'
 import NeedHelp from './Components/NeedHelp';
 import Services from './Components/Services';
 import OurTeam from './Components/OurTeam'
+import ContactUs from './Components/ContactUs';
 
 
 function App() {
@@ -20,23 +21,24 @@ function App() {
               <NeedHelp />
             </>} />
 
-            <Route path="/services" element={
+          <Route path="/services" element={
             <>
               <NavBar />
               <Services />
               <NeedHelp />
             </>} />
 
-            <Route path="/team" element={
+          <Route path="/team" element={
             <>
               <NavBar />
               <OurTeam />
               <NeedHelp />
             </>} />
 
-            <Route path="/contact" element={
+          <Route path="/contact" element={
             <>
               <NavBar />
+              <ContactUs />
               <NeedHelp />
             </>} />
           {/* <Route path="/*" element={<NotFound />} /> */}

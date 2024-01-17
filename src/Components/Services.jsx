@@ -24,7 +24,7 @@ function Services() {
 
                     <Col className='d-flex justify-content-center col-lg-6'>
                         <img src={services} alt="doctor" width={350} className=' d-md-block d-lg-none' />
-                        <img src={services} alt="doctor" width={400} className='d-none d-lg-block' />
+                        <img src={services} alt="doctor" width={640} className='d-none d-lg-block' />
                     </Col>
                 </Row>
 

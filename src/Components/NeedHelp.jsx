@@ -21,7 +21,7 @@ function NeedHelp () {
 
                 <Col sm={12} md={6} className='ps-5'>
                 <h2 className='section_title_need_help mb-4'>Need an <br />Emergency Help? <br /> Call Us!</h2>
-                <Link to='' className='text-decoration-none text-dark fs-2' ><FaPhoneAlt/> 555-1234 </Link> <br />
+                <Link to='' className='text-decoration-none text-secondary fs-2' ><FaPhoneAlt className='icon_phone'/> +78 (0) 555-1234 </Link> <br />
                 <Button href="/contact" className='custom-btn border-0 rounded-1 px-4 py-2 mt-4'>Contact US!</Button>
                 </Col>
             </Row>

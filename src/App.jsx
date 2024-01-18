@@ -1,7 +1,7 @@
 import './App.css'
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import HomePage from './Components/HomePage'
-import NavBar from './Components/Navbar'
+import NavBarTop from './Components/NavBarTop';
 import NeedHelp from './Components/NeedHelp';
 import Services from './Components/Services';
 import OurTeam from './Components/OurTeam'
@@ -17,7 +17,7 @@ function App() {
         <Routes>
           <Route path="/" element={
             <>
-              <NavBar />
+              <NavBarTop />
               <HomePage />
               <NeedHelp />
               <Footer />
@@ -25,7 +25,7 @@ function App() {
 
           <Route path="/services" element={
             <>
-              <NavBar />
+              <NavBarTop />
               <Services />
               <NeedHelp />
               <Footer />
@@ -33,7 +33,7 @@ function App() {
 
           <Route path="/team" element={
             <>
-              <NavBar />
+              <NavBarTop />
               <OurTeam />
               <NeedHelp />
               <Footer />
@@ -41,7 +41,7 @@ function App() {
 
           <Route path="/contact" element={
             <>
-              <NavBar />
+              <NavBarTop />
               <ContactUs />
               <NeedHelp />
               <Footer />

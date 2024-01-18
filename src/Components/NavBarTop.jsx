@@ -2,7 +2,7 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 
-function NavBar() {
+function NavBarTop() {
   return (
     <Navbar sticky="top" expand="lg" className="bg-body-tertiary">
       <Container>
@@ -21,4 +21,4 @@ function NavBar() {
   );
 }
 
-export default NavBar;
+export default NavBarTop;

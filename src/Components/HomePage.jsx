@@ -30,7 +30,7 @@ function HomePage() {
                     </Col>
 
 
-                    <Col className='d-flex flex-column justify-content-center align-items-start col-lg-6' data-aos="zoom-in-right">
+                    <Col className='d-flex flex-column justify-content-center align-items-start col-lg-6'>
                         <p className=''>WELCOME ON OURS CLINIC'S SITE</p>
                         <h1 className='mb-3 take_care'>Take Care<br />of your health </h1>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae voluptatem dolor, non animi hic vero necessitatibus blanditiis dolores!</p>
